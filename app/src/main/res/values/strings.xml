@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hamming</string>
+    <string name="button_mail">Отправить</string>
+    <string name="button_2activity">Ответить</string>
+    <string name="button_1activity">Далее</string>
+    <string name="hint_first">Имя</string>
+    <string name="hint_last">Фамилия</string>
+    <string name="hint_group">Группа</string>
+    <string name="text_1activity">Введите ФИ и номер группы</string>
+    <string name="hint_2">Ответ</string>
+    <string name="count_accept">Правильных ответов </string>
+    <string name="FIO">Студент </string>
+</resources>

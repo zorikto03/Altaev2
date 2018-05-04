@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="7dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Задание"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/Textview"
+            android:textSize="20sp"
+
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Количество верных ответов : "
+                android:textSize="15sp"
+                />
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:id="@+id/CountAccept_id"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:id="@+id/CountAttempt_id"
+
+                />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ответ:"
+            android:textSize="25sp"
+            android:layout_gravity="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/hint_2"
+            android:id="@+id/Answer"
+            android:inputType="number"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/BtnAnswer"
+            android:text="@string/button_2activity"
+            android:textSize="22sp"
+            android:layout_margin="20dp"
+            android:onClick="ButtonAnswer"/>
+
+    </LinearLayout>
+</LinearLayout>

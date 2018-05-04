@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="7dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_1activity"
+            android:textSize="25sp"
+            android:layout_margin="7dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/hint_last"
+            android:id="@+id/last_name"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/hint_first"
+            android:id="@+id/first_name"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/hint_group"
+            android:id="@+id/Group"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/button_1activity"
+            android:id="@+id/ButtonAdd"
+            android:onClick="ButtonAdd"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+</LinearLayout>
